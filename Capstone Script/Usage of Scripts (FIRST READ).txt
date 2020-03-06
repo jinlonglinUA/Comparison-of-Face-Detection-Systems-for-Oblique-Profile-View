@@ -1,0 +1,26 @@
+The following are main script:
+
+(1)confusionmatrix.py is to generate the confusionmatrix table about TP,FP,FN.
+(2)FaceAccurateCalculator.py is to compute Mean Error of Euclidean Distance.
+How to run it ? see README.md
+
+The second part of scripts (the usage is showed in the code):
+
+(1)invalid_statistics.py:count the number of undetected faces which are rotated by mathmatical z axis based on confusionmatrix table, and its distribution.
+(2)slope.py: count the number of undetected faces which are rotated by mathmatical x axis based on confusionmatrix table, the distribution of undetected images in specifc angle.
+(3)isGreyScale.py: using RGB feature to determine the image is Monochromatic image or not. This script is used to count the number of Monochromatic images and extract them.
+
+The third part of scripts (tools):
+(1)convexHull_Visulization.py to draw the convexHull after given annotation points and detection points.
+(2)ImageVisialization.py to visual the point on the images.
+
+
+The fourth part of scripts (data get);
+(1)extract_from_AFLW.py: extract the data from AFLW database about the AFLW annotation information.
+(2)RunFace++.py: how ot use the Face++ API
+(3)RunOpenFace.sh: how ot run OpenFace after you have install this system.
+
+The following excel table record the conversion inforamtion between Openface, Face++ and Deva in 300w and AFLW dataset
+Appendix A.xlsx
+AppendixA_Deva_AFLW.csv
+AppendixA_Deva_300w.csv
