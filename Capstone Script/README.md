@@ -45,7 +45,7 @@ Usage:
 Notice:
 Confusion Table csv file path, it is the csv which indicate the the face has found, not found will be ignored without the computation of the face-size-normalized point-to-point error 
     
-Guide to run the scripts:
+Guide to run the scripts(the script is long,such that the pasta is good choice):
 AFLW Dataset:
   Face++:
   python FaceAccurateCalculator.py ./AFLW_600_Facepp_Result/AFLW_face++_ConfusionTable.csv AFLW_600_Annotation/ AFLW_600_Detection_Facepp/ all
