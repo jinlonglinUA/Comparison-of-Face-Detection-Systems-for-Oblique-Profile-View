@@ -52,7 +52,7 @@ AFLW Dataset:
   OpenFace:
   python FaceAccurateCalculator.py ./AFLW_600_OpenFace_Result/AFLW_OpenFace_ConfusionTable.csv AFLW_600_Annotation/ AFLW_600_Detection_OpenFace/ all
   python FaceAccurateCalculator.py ./AFLW_600_OpenFace_Result/AFLW_OpenFace_ConfusionTable.csv AFLW_600_Annotation/ AFLW_600_Detection_OpenFace/ eye
-  -Jinlong Lin
+  
 300W Dataset:
   [Face++]
   ---300w Indoor images
