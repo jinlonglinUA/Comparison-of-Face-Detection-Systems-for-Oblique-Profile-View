@@ -1,7 +1,10 @@
 ConfusionMatrix.py:
+
 `ConfusionMatrix.py` contains functions for computing the convex hull of set of points and the area of this hull.
 python ConfusionMatrix.py <annotation directory> <detection directory> <output current folder> <dataset name> <software model> <point match schema> <two type points>
   - Jinlong Lin
+  
+Introduction: 
 The script ConfusionMatrix.py is used to check TP (true positive), FP (false positive), FN (false negative), and wite down into a table for face detection modules.
 ConfusionMatrix .py is a version with libraries. Scipy library is used to get convex hull and area, Polygon library is used to calculate intersection area, pandas is used to load data and drop NaN values
 The script solved Convex Hull issues, could handle multi-annotation-faces in one image, and could handle multi-detection-faces for one real face.
@@ -34,10 +37,11 @@ Usage:
 
 
 FaceAccurateCalculator.py:
+
 '''
     The script is used to conduct the computation of the face-size-normalized point-to-point error between a set of predicted and annotated landmark locations, the ideas of script is from the SeanMHendryx's script  DistanceBetweenPoints.py, 
     and add more functions including the support of the multiple faces in one image and the support of dateset which contains the data tuple format "NAN", "NaN".
-    Author: Jinlong Lin
+   - Jinlong Lin
 '''
 
 Usage:
@@ -46,6 +50,7 @@ Notice:
 Confusion Table csv file path, it is the csv which indicate the the face has found, not found will be ignored without the computation of the face-size-normalized point-to-point error 
     
 Guide to run the scripts(the script is long,such that the pasta is good choice):
+
 AFLW Dataset:
   Face++:
   python FaceAccurateCalculator.py ./AFLW_600_Facepp_Result/AFLW_face++_ConfusionTable.csv AFLW_600_Annotation/ AFLW_600_Detection_Facepp/ all
