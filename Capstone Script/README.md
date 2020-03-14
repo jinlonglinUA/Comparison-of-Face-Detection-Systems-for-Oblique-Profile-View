@@ -1,11 +1,5 @@
 ConfusionMatrix.py:
-
-`ConfusionMatrix.py` contains functions for computing the convex hull of set of points and the area of this hull.
-python ConfusionMatrix.py <annotation directory> <detection directory> <output current folder> <dataset name> <software model> <point match schema> <two type points>
-  - Jinlong Lin
-  
-Introduction: 
-The script ConfusionMatrix.py is used to check TP (true positive), FP (false positive), FN (false negative), and wite down into a table for face detection modules.
+The script ConfusionMatrix.py contains functions for computing the convex hull of set of points and the area of this hull. It is used to check TP (true positive), FP (false positive), FN (false negative), and wite down into a table for face detection modules.
 ConfusionMatrix .py is a version with libraries. Scipy library is used to get convex hull and area, Polygon library is used to calculate intersection area, pandas is used to load data and drop NaN values
 The script solved Convex Hull issues, could handle multi-annotation-faces in one image, and could handle multi-detection-faces for one real face.
 
