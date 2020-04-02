@@ -6,3 +6,4 @@ Their performances are compared on finding faces and landmark locations in the 3
 It is a good and friendly report for the beginner for computer vision, reader can easily to understand fundamental theory   computer vision, design their owen some automitc scripts and tools to handle their images.
 
 My university main page: https://www2.cs.arizona.edu/~jinlonglin/
+This project belong to IVIlab mastered by Kobus Barnard: http://ivilab.org/
